@@ -814,3 +814,776 @@ Recommended: 22.2.2
 [2022.12.29-21.47.58:545][785]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2022.12.29-21.47.58:676][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
 [2022.12.29-21.47.58:733][786]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.12.29-21.52.04:018][986]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.12.29-21.52.04:046][986]LogContentBrowser: Creating deferred item: NewFolder
+[2022.12.29-21.52.04:069][987]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.12.29-21.52.05:736][ 78]LogContentBrowser: Attempting asset rename: NewFolder -> Enemy
+[2022.12.29-21.52.05:737][ 78]LogContentBrowser: End creating deferred item NewFolder
+[2022.12.29-21.52.33:901][643]LogContentBrowser: Deferred new asset file creation: NewBlackboardData
+[2022.12.29-21.52.33:913][643]LogContentBrowser: Creating deferred item: NewBlackboardData
+[2022.12.29-21.52.33:951][645]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlackboardData).
+[2022.12.29-21.52.45:524][332]LogContentBrowser: Attempting asset rename: NewBlackboardData -> BB_BasicEnemy
+[2022.12.29-21.52.45:697][332]LogContentBrowser: End creating deferred item NewBlackboardData
+[2022.12.29-21.52.49:876][551]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2022.12.29-21.52.49:888][551]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2022.12.29-21.52.49:912][552]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2022.12.29-21.53.03:537][366]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> BT_BasicEnemy
+[2022.12.29-21.53.03:538][366]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2022.12.29-21.53.13:188][922]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/Blueprint/Enemy/BB_BasicEnemy.BB_BasicEnemy
+[2022.12.29-21.53.19:254][103]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.12.29-21.53.37:979][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Enemy/BB_BasicEnemy" FILE="../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/Enemy/BB_BasicEnemy.uasset" SILENT=true
+[2022.12.29-21.53.38:119][985]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.067686 seconds
+[2022.12.29-21.53.38:217][985]LogSavePackage: Moving output files for package: /Game/Blueprint/Enemy/BB_BasicEnemy
+[2022.12.29-21.53.38:217][985]LogSavePackage: Moving '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Saved/BB_BasicEnemyAFB001014FE541EB0D5387968525461C.tmp' to '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/Enemy/BB_BasicEnemy.uasset'
+[2022.12.29-21.53.38:272][985]AssetCheck: New page: Asset Save: BB_BasicEnemy
+[2022.12.29-21.53.38:272][985]LogContentValidation: Display: Validating BlackboardData /Game/Blueprint/Enemy/BB_BasicEnemy.BB_BasicEnemy
+[2022.12.29-21.54.14:171][597]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.29-21.54.14:655][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.29-21.54.14:655][597]PIE: New page: PIE session: L_Void (29 Dec 2022, 21:54:14)
+[2022.12.29-21.54.14:655][597]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.54.14:659][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003531s)
+[2022.12.29-21.54.14:659][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Void.L_Void to /Game/Level/UEDPIE_0_L_Void.L_Void (0.003641s)
+[2022.12.29-21.54.14:659][597]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.29-21.54.14:659][597]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-21.54.14:659][597]LogAIModule: Creating AISystem for world L_Void
+[2022.12.29-21.54.14:660][597]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2022.12.29-21.54.14:745][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.12.29-21.54.14:747][597]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.12.29-21.54.14:747][597]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.29-21.54.14:747][597]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.29-21.54.14:748][597]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.29-21.54.14:748][597]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.29-21.54.14:748][597]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.29-21.54.14:748][597]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.29-21.54.14:748][597]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.29-21.54.14:748][597]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.29-21.54.14:748][597]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.29-21.54.14:748][597]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.29-21.54.14:748][597]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.29-21.54.14:750][597]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.29-21.54.14:776][597]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.12.29-21.54.14:776][597]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.29-21.54.14:776][597]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.29-21.54.14:776][597]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.29-21.54.14:777][597]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.12.29-21.54.14:777][597]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.12.29-21.54.14:779][597]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.12.29-21.54.14:779][597]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.12.29-21.54.14:779][597]LogInit: FAudioDevice initialized.
+[2022.12.29-21.54.14:779][597]LogAudio: Display: Audio Device (ID: 3) registered with world 'L_Void'.
+[2022.12.29-21.54.14:798][597]LogLoad: Game class is 'TestGameMode_C'
+[2022.12.29-21.54.14:799][597]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Void.L_Void up for play (max tick rate 60) at 2022.12.29-21.54.14
+[2022.12.29-21.54.14:799][597]LogWorld: Bringing up level for play took: 0.001088
+[2022.12.29-21.54.14:818][597]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2022.12.29-21.54.14:820][597]PIE: Server logged in
+[2022.12.29-21.54.14:821][597]PIE: Play in editor total start time 0.637 seconds.
+[2022.12.29-21.54.31:621][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.54.31:621][375]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.54.31:621][375]LogWorld: UWorld::CleanupWorld for L_Void, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-21.54.31:623][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.54.31:644][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.29-21.54.31:646][375]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.54.31:656][375]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.29-21.54.31:657][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.12.29-21.54.31:658][375]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.12.29-21.54.31:673][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.54.31:704][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.12.29-21.54.31:752][376]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.12.29-21.54.37:142][622]LogStatusBar: Looking status bar with open content browser drawer...
+[2022.12.29-21.54.37:142][622]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2022.12.29-21.54.37:588][622]LogViewport: Scene viewport resized to 1526x585, mode Windowed.
+[2022.12.29-21.54.43:916][937]LogViewport: Scene viewport resized to 1526x562, mode Windowed.
+[2022.12.29-21.54.44:006][939]LogViewport: Scene viewport resized to 1526x507, mode Windowed.
+[2022.12.29-21.54.44:062][940]LogViewport: Scene viewport resized to 1526x506, mode Windowed.
+[2022.12.29-21.55.21:898][852]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/B_RoboFist.B_RoboFist
+[2022.12.29-21.55.21:930][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-21.55.22:686][852]LogBlueprintEditor: Perf: 0.5 total seconds to load all 6 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2022.12.29-21.55.22:686][852]LogBlueprintEditor: Perf: 0.2 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros
+[2022.12.29-21.55.52:639][852]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2022.12.29-21.55.52:639][852]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [21695ms] waiting for h/w. InstanceID=1
+[2022.12.29-21.55.52:639][852]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.035085s
+[2022.12.29-21.55.55:642][852]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.001462s (9.225510s overbudget)
+[2022.12.29-21.55.56:340][852]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=3380
+[2022.12.29-21.55.56:340][852]LogSlate: Took 0.060140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.12.29-21.55.57:651][853]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d2023090-ac25-42b2-85eb-db1f1ee7a186}, Name=Headphones (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=26.64
+[2022.12.29-21.55.57:702][853]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.12.29-21.55.57:964][854]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.12.29-21.55.59:187][904]LogMeshUtilities: Finished distance field build in 4.4s - 126x126x21 sparse distance field, 0.6Mb total, 0.0Mb always loaded, 100% occupied, 4 triangles, PhAT_FloorBox
+[2022.12.29-21.56.43:841][873]LogSlate: Took 0.014816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.12.29-21.56.54:809][296]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_3.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.56.54:809][296]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_2.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.56.54:854][296]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_7.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.56.54:855][296]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_6.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.21:122][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/B_RoboFist" FILE="../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/B_RoboFist.uasset" SILENT=true
+[2022.12.29-21.57.21:353][461]LogSavePackage: Moving output files for package: /Game/Blueprint/B_RoboFist
+[2022.12.29-21.57.21:354][461]LogSavePackage: Moving '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Saved/B_RoboFist4169F9474A7C0663AA96C0AA6148B54A.tmp' to '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/B_RoboFist.uasset'
+[2022.12.29-21.57.21:381][461]AssetCheck: New page: Asset Save: B_RoboFist
+[2022.12.29-21.57.21:381][461]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/B_RoboFist.B_RoboFist
+[2022.12.29-21.57.41:537][400]LogViewport: Scene viewport resized to 1139x825, mode Windowed.
+[2022.12.29-21.57.50:389][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_15.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.50:390][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_14.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.50:403][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.50:403][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_22.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.50:416][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.50:416][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_30.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.50:441][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_39.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.50:441][668]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_38.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:862][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:863][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:881][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_55.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:881][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_54.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:895][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_63.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:896][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_62.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:911][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_71.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:911][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_70.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:927][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_79.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.52:927][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_78.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.54:343][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/B_RoboFist" FILE="../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/B_RoboFist.uasset" SILENT=true
+[2022.12.29-21.57.54:363][771]LogSavePackage: Moving output files for package: /Game/Blueprint/B_RoboFist
+[2022.12.29-21.57.54:363][771]LogSavePackage: Moving '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Saved/B_RoboFist04DBE6D34DE0CA4952CFC293FC353F4F.tmp' to '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/B_RoboFist.uasset'
+[2022.12.29-21.57.54:376][771]AssetCheck: New page: Asset Save: B_RoboFist
+[2022.12.29-21.57.54:376][771]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/B_RoboFist.B_RoboFist
+[2022.12.29-21.57.56:056][826]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.29-21.57.56:071][826]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.12.29-21.57.56:107][826]LogPlayLevel: [PlayLevel] Compiling B_RoboFist before play...
+[2022.12.29-21.57.56:216][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_83.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.56:217][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_82.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.56:228][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_87.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.56:228][826]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_86.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.57.56:336][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.12.29-21.57.56:338][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 266 ms (1 blueprints)
+[2022.12.29-21.57.56:338][826]PIE: New page: PIE session: L_Void (29 Dec 2022, 21:57:56)
+[2022.12.29-21.57.56:339][826]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.57.56:341][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002291s)
+[2022.12.29-21.57.56:341][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Void.L_Void to /Game/Level/UEDPIE_0_L_Void.L_Void (0.002413s)
+[2022.12.29-21.57.56:341][826]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.29-21.57.56:341][826]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-21.57.56:342][826]LogAIModule: Creating AISystem for world L_Void
+[2022.12.29-21.57.56:343][826]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2022.12.29-21.57.56:380][826]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.12.29-21.57.56:380][826]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.12.29-21.57.56:380][826]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.29-21.57.56:380][826]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.29-21.57.56:380][826]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.29-21.57.56:380][826]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.29-21.57.56:380][826]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.29-21.57.56:380][826]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.29-21.57.56:380][826]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.29-21.57.56:380][826]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.29-21.57.56:381][826]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.29-21.57.56:381][826]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.29-21.57.56:381][826]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.29-21.57.56:384][826]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.29-21.57.56:412][826]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.12.29-21.57.56:412][826]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.29-21.57.56:412][826]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.29-21.57.56:412][826]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.29-21.57.56:414][826]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.12.29-21.57.56:414][826]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.12.29-21.57.56:416][826]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.12.29-21.57.56:416][826]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.12.29-21.57.56:416][826]LogInit: FAudioDevice initialized.
+[2022.12.29-21.57.56:416][826]LogAudio: Display: Audio Device (ID: 4) registered with world 'L_Void'.
+[2022.12.29-21.57.56:436][826]LogLoad: Game class is 'TestGameMode_C'
+[2022.12.29-21.57.56:437][826]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Void.L_Void up for play (max tick rate 60) at 2022.12.29-21.57.56
+[2022.12.29-21.57.56:437][826]LogWorld: Bringing up level for play took: 0.001180
+[2022.12.29-21.57.56:439][826]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2022.12.29-21.57.56:442][826]PIE: Server logged in
+[2022.12.29-21.57.56:443][826]PIE: Play in editor total start time 0.377 seconds.
+[2022.12.29-21.58.08:607][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.58.08:608][390]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.58.08:608][390]LogWorld: UWorld::CleanupWorld for L_Void, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-21.58.08:609][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.58.08:630][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.29-21.58.08:636][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.58.08:669][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.58.08:669][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.12.29-21.58.08:671][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.12.29-21.58.08:678][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.12.29-21.58.08:732][391]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2022.12.29-21.58.28:666][219]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.29-21.58.28:679][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.29-21.58.28:679][219]PIE: New page: PIE session: L_Void (29 Dec 2022, 21:58:28)
+[2022.12.29-21.58.28:679][219]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.58.28:682][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002198s)
+[2022.12.29-21.58.28:682][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Void.L_Void to /Game/Level/UEDPIE_0_L_Void.L_Void (0.002301s)
+[2022.12.29-21.58.28:682][219]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.29-21.58.28:682][219]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-21.58.28:682][219]LogAIModule: Creating AISystem for world L_Void
+[2022.12.29-21.58.28:683][219]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2022.12.29-21.58.28:720][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.12.29-21.58.28:721][219]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.12.29-21.58.28:721][219]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.29-21.58.28:721][219]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.29-21.58.28:721][219]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.29-21.58.28:721][219]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.29-21.58.28:721][219]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.29-21.58.28:721][219]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.29-21.58.28:721][219]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.29-21.58.28:721][219]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.29-21.58.28:722][219]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.29-21.58.28:722][219]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.29-21.58.28:722][219]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.29-21.58.28:724][219]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.29-21.58.28:747][219]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.12.29-21.58.28:748][219]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.29-21.58.28:748][219]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.29-21.58.28:748][219]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.29-21.58.28:749][219]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.12.29-21.58.28:749][219]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.12.29-21.58.28:751][219]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.12.29-21.58.28:751][219]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.12.29-21.58.28:751][219]LogInit: FAudioDevice initialized.
+[2022.12.29-21.58.28:751][219]LogAudio: Display: Audio Device (ID: 5) registered with world 'L_Void'.
+[2022.12.29-21.58.28:799][219]LogLoad: Game class is 'TestGameMode_C'
+[2022.12.29-21.58.28:800][219]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Void.L_Void up for play (max tick rate 60) at 2022.12.29-21.58.28
+[2022.12.29-21.58.28:800][219]LogWorld: Bringing up level for play took: 0.000996
+[2022.12.29-21.58.28:802][219]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2022.12.29-21.58.28:805][219]PIE: Server logged in
+[2022.12.29-21.58.28:806][219]PIE: Play in editor total start time 0.131 seconds.
+[2022.12.29-21.58.31:529][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.58.31:529][347]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.58.31:530][347]LogWorld: UWorld::CleanupWorld for L_Void, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-21.58.31:531][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.58.31:546][347]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.29-21.58.31:550][347]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.58.31:584][347]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.29-21.58.31:584][347]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.12.29-21.58.31:586][347]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.12.29-21.58.31:590][347]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.58.31:593][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.12.29-21.58.31:648][348]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.12.29-21.58.33:194][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_Void" FILE="../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Level/L_Void.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.29-21.58.33:261][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.12.29-21.58.33:319][405]LogSavePackage: Moving output files for package: /Game/Level/L_Void
+[2022.12.29-21.58.33:320][405]LogSavePackage: Moving '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Saved/L_Void9836BAB448E7A1A6CC84F5BCE36F3745.tmp' to '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Level/L_Void.umap'
+[2022.12.29-21.58.33:366][405]AssetCheck: New page: Asset Save: L_Void
+[2022.12.29-21.58.33:367][405]LogContentValidation: Display: Validating World /Game/Level/L_Void.L_Void
+[2022.12.29-21.58.40:719][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.40:719][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_94.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.40:733][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_103.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.40:733][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_102.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.40:748][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.40:748][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_110.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.40:761][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_119.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.40:762][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_118.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.40:774][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_127.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.40:774][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_126.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.42:230][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_135.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.42:230][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_134.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.42:243][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_143.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.42:243][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_142.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.42:255][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_151.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.42:256][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_150.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.42:268][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_159.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.42:269][735]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_158.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.45:644][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_167.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.45:645][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_166.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.45:659][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_175.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.45:660][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_174.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.45:674][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_183.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.45:674][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_182.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.45:688][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_191.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.45:689][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_190.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.53:460][160]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_199.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.53:460][160]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_198.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.53:474][160]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_207.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.53:474][160]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_206.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.53:487][160]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_215.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.53:488][160]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_214.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.53:500][160]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_223.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.53:500][160]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_222.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.55:536][234]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.29-21.58.55:549][234]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.12.29-21.58.55:551][234]LogPlayLevel: [PlayLevel] Compiling B_RoboFist before play...
+[2022.12.29-21.58.55:598][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_227.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.55:599][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_226.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.55:610][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_231.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.55:610][234]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_230.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.58.55:652][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.12.29-21.58.55:655][234]LogPlayLevel: PlayLevel: Blueprint regeneration took 106 ms (1 blueprints)
+[2022.12.29-21.58.55:655][234]PIE: New page: PIE session: L_Void (29 Dec 2022, 21:58:55)
+[2022.12.29-21.58.55:655][234]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.58.55:657][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002124s)
+[2022.12.29-21.58.55:657][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Void.L_Void to /Game/Level/UEDPIE_0_L_Void.L_Void (0.002234s)
+[2022.12.29-21.58.55:657][234]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.29-21.58.55:657][234]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-21.58.55:658][234]LogAIModule: Creating AISystem for world L_Void
+[2022.12.29-21.58.55:658][234]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2022.12.29-21.58.55:695][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.12.29-21.58.55:696][234]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.12.29-21.58.55:696][234]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.29-21.58.55:696][234]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.29-21.58.55:696][234]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.29-21.58.55:696][234]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.29-21.58.55:696][234]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.29-21.58.55:696][234]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.29-21.58.55:696][234]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.29-21.58.55:696][234]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.29-21.58.55:696][234]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.29-21.58.55:697][234]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.29-21.58.55:697][234]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.29-21.58.55:699][234]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.29-21.58.55:721][234]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.12.29-21.58.55:722][234]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.29-21.58.55:722][234]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.29-21.58.55:722][234]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.29-21.58.55:723][234]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2022.12.29-21.58.55:723][234]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2022.12.29-21.58.55:726][234]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2022.12.29-21.58.55:726][234]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2022.12.29-21.58.55:726][234]LogInit: FAudioDevice initialized.
+[2022.12.29-21.58.55:726][234]LogAudio: Display: Audio Device (ID: 6) registered with world 'L_Void'.
+[2022.12.29-21.58.55:744][234]LogLoad: Game class is 'TestGameMode_C'
+[2022.12.29-21.58.55:745][234]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Void.L_Void up for play (max tick rate 60) at 2022.12.29-21.58.55
+[2022.12.29-21.58.55:745][234]LogWorld: Bringing up level for play took: 0.001059
+[2022.12.29-21.58.55:747][234]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2022.12.29-21.58.55:750][234]PIE: Server logged in
+[2022.12.29-21.58.55:751][234]PIE: Play in editor total start time 0.205 seconds.
+[2022.12.29-21.59.14:505][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.59.14:505][ 86]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.59.14:505][ 86]LogWorld: UWorld::CleanupWorld for L_Void, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-21.59.14:506][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.59.14:520][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.29-21.59.14:525][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.59.14:557][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.59.14:558][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.12.29-21.59.14:559][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2022.12.29-21.59.14:566][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2022.12.29-21.59.14:621][ 87]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2022.12.29-21.59.16:489][162]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.29-21.59.16:502][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.29-21.59.16:503][162]PIE: New page: PIE session: L_Void (29 Dec 2022, 21:59:16)
+[2022.12.29-21.59.16:503][162]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.59.16:506][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002403s)
+[2022.12.29-21.59.16:506][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Void.L_Void to /Game/Level/UEDPIE_0_L_Void.L_Void (0.002513s)
+[2022.12.29-21.59.16:506][162]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.29-21.59.16:506][162]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-21.59.16:506][162]LogAIModule: Creating AISystem for world L_Void
+[2022.12.29-21.59.16:507][162]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2022.12.29-21.59.16:544][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2022.12.29-21.59.16:547][162]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.12.29-21.59.16:547][162]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.29-21.59.16:547][162]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.29-21.59.16:547][162]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.29-21.59.16:547][162]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.29-21.59.16:547][162]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.29-21.59.16:547][162]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.29-21.59.16:547][162]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.29-21.59.16:547][162]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.29-21.59.16:547][162]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.29-21.59.16:547][162]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.29-21.59.16:547][162]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.29-21.59.16:550][162]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.29-21.59.16:578][162]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.12.29-21.59.16:578][162]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.29-21.59.16:579][162]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.29-21.59.16:579][162]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.29-21.59.16:579][162]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2022.12.29-21.59.16:579][162]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2022.12.29-21.59.16:582][162]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2022.12.29-21.59.16:582][162]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2022.12.29-21.59.16:582][162]LogInit: FAudioDevice initialized.
+[2022.12.29-21.59.16:582][162]LogAudio: Display: Audio Device (ID: 7) registered with world 'L_Void'.
+[2022.12.29-21.59.16:595][162]LogLoad: Game class is 'TestGameMode_C'
+[2022.12.29-21.59.16:596][162]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Void.L_Void up for play (max tick rate 60) at 2022.12.29-21.59.16
+[2022.12.29-21.59.16:596][162]LogWorld: Bringing up level for play took: 0.001064
+[2022.12.29-21.59.16:599][162]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2022.12.29-21.59.16:601][162]PIE: Server logged in
+[2022.12.29-21.59.16:602][162]PIE: Play in editor total start time 0.103 seconds.
+[2022.12.29-21.59.22:056][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.59.22:056][410]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-21.59.22:056][410]LogWorld: UWorld::CleanupWorld for L_Void, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-21.59.22:057][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.59.22:071][410]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.29-21.59.22:076][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-21.59.22:109][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-21.59.22:109][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.12.29-21.59.22:111][410]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2022.12.29-21.59.22:118][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.12.29-21.59.22:173][411]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.12.29-21.59.58:331][ 68]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_234.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.59.58:333][ 68]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_235.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.59.59:433][109]LogEditorTransaction: Undo Rename Node
+[2022.12.29-21.59.59:487][109]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_239.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-21.59.59:487][109]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_238.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.00:940][152]LogEditorTransaction: Undo Add Node
+[2022.12.29-22.00.00:973][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_243.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.00:973][152]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_242.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.02:290][211]LogEditorTransaction: Redo Add Node
+[2022.12.29-22.00.02:325][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_247.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.02:326][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_246.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.06:164][375]LogEditorTransaction: Undo Move Node
+[2022.12.29-22.00.06:195][375]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_251.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.06:196][375]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_250.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.06:549][378]LogEditorTransaction: Undo Add Node
+[2022.12.29-22.00.06:580][378]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_255.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.06:580][378]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_254.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.07:043][385]LogEditorTransaction: Undo Change Collision Profile
+[2022.12.29-22.00.33:283][878]LogViewport: Scene viewport resized to 1141x877, mode Windowed.
+[2022.12.29-22.00.33:613][884]LogViewport: Scene viewport resized to 1138x874, mode Windowed.
+[2022.12.29-22.00.33:675][885]LogViewport: Scene viewport resized to 1141x877, mode Windowed.
+[2022.12.29-22.00.59:743][714]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_263.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.00.59:743][714]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_262.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.04:060][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_271.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.04:061][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_270.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.04:078][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_279.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.04:078][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_278.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.04:094][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_287.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.04:094][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_286.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.04:108][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_295.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.04:108][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_294.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.06:872][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_303.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.06:872][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_302.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.06:885][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_311.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.06:886][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_310.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.06:899][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_319.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.06:899][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_318.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.06:913][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_327.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.06:913][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_326.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.09:624][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/B_RoboFist" FILE="../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/B_RoboFist.uasset" SILENT=true
+[2022.12.29-22.01.09:665][  6]LogSavePackage: Moving output files for package: /Game/Blueprint/B_RoboFist
+[2022.12.29-22.01.09:665][  6]LogSavePackage: Moving '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Saved/B_RoboFist44F13E6C4117276DA03214918362D3BE.tmp' to '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/B_RoboFist.uasset'
+[2022.12.29-22.01.09:682][  6]AssetCheck: New page: Asset Save: B_RoboFist
+[2022.12.29-22.01.09:682][  6]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/B_RoboFist.B_RoboFist
+[2022.12.29-22.01.17:941][266]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.29-22.01.17:954][266]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.12.29-22.01.17:956][266]LogPlayLevel: [PlayLevel] Compiling B_RoboFist before play...
+[2022.12.29-22.01.18:002][266]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_331.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.18:003][266]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_330.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.18:013][266]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_335.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.18:013][266]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_334.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.18:057][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2022.12.29-22.01.18:062][266]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2022.12.29-22.01.18:062][266]PIE: New page: PIE session: L_Void (29 Dec 2022, 22:01:18)
+[2022.12.29-22.01.18:063][266]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-22.01.18:065][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002246s)
+[2022.12.29-22.01.18:065][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Void.L_Void to /Game/Level/UEDPIE_0_L_Void.L_Void (0.002343s)
+[2022.12.29-22.01.18:065][266]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.29-22.01.18:065][266]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-22.01.18:066][266]LogAIModule: Creating AISystem for world L_Void
+[2022.12.29-22.01.18:066][266]LogPlayLevel: PIE: World Init took: (0.001219s)
+[2022.12.29-22.01.18:099][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.12.29-22.01.18:100][266]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.12.29-22.01.18:100][266]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.29-22.01.18:100][266]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.29-22.01.18:100][266]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.29-22.01.18:100][266]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.29-22.01.18:100][266]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.29-22.01.18:100][266]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.29-22.01.18:100][266]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.29-22.01.18:100][266]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.29-22.01.18:101][266]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.29-22.01.18:101][266]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.29-22.01.18:101][266]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.29-22.01.18:104][266]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.29-22.01.18:130][266]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.12.29-22.01.18:130][266]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.29-22.01.18:130][266]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.29-22.01.18:130][266]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.29-22.01.18:132][266]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2022.12.29-22.01.18:132][266]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2022.12.29-22.01.18:134][266]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2022.12.29-22.01.18:135][266]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2022.12.29-22.01.18:135][266]LogInit: FAudioDevice initialized.
+[2022.12.29-22.01.18:135][266]LogAudio: Display: Audio Device (ID: 8) registered with world 'L_Void'.
+[2022.12.29-22.01.18:154][266]LogLoad: Game class is 'TestGameMode_C'
+[2022.12.29-22.01.18:155][266]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Void.L_Void up for play (max tick rate 60) at 2022.12.29-22.01.18
+[2022.12.29-22.01.18:155][266]LogWorld: Bringing up level for play took: 0.001067
+[2022.12.29-22.01.18:157][266]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2022.12.29-22.01.18:160][266]PIE: Server logged in
+[2022.12.29-22.01.18:161][266]PIE: Play in editor total start time 0.21 seconds.
+[2022.12.29-22.01.21:426][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-22.01.21:426][456]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-22.01.21:426][456]LogWorld: UWorld::CleanupWorld for L_Void, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-22.01.21:426][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-22.01.21:438][456]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.29-22.01.21:443][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-22.01.21:476][456]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-22.01.21:476][456]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.12.29-22.01.21:478][456]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2022.12.29-22.01.21:485][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.12.29-22.01.21:534][457]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.12.29-22.01.23:146][548]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.29-22.01.23:156][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.29-22.01.23:156][548]PIE: New page: PIE session: L_Void (29 Dec 2022, 22:01:23)
+[2022.12.29-22.01.23:156][548]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-22.01.23:158][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002407s)
+[2022.12.29-22.01.23:158][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Void.L_Void to /Game/Level/UEDPIE_0_L_Void.L_Void (0.002507s)
+[2022.12.29-22.01.23:158][548]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.29-22.01.23:159][548]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-22.01.23:159][548]LogAIModule: Creating AISystem for world L_Void
+[2022.12.29-22.01.23:160][548]LogPlayLevel: PIE: World Init took: (0.001622s)
+[2022.12.29-22.01.23:195][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.12.29-22.01.23:197][548]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.12.29-22.01.23:197][548]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.29-22.01.23:197][548]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.29-22.01.23:197][548]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.29-22.01.23:197][548]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.29-22.01.23:197][548]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.29-22.01.23:197][548]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.29-22.01.23:197][548]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.29-22.01.23:197][548]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.29-22.01.23:198][548]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.29-22.01.23:198][548]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.29-22.01.23:198][548]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.29-22.01.23:200][548]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.29-22.01.23:222][548]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.12.29-22.01.23:223][548]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.29-22.01.23:223][548]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.29-22.01.23:223][548]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.29-22.01.23:223][548]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2022.12.29-22.01.23:224][548]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2022.12.29-22.01.23:226][548]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2022.12.29-22.01.23:226][548]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2022.12.29-22.01.23:226][548]LogInit: FAudioDevice initialized.
+[2022.12.29-22.01.23:226][548]LogAudio: Display: Audio Device (ID: 9) registered with world 'L_Void'.
+[2022.12.29-22.01.23:242][548]LogLoad: Game class is 'TestGameMode_C'
+[2022.12.29-22.01.23:244][548]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Void.L_Void up for play (max tick rate 60) at 2022.12.29-22.01.23
+[2022.12.29-22.01.23:244][548]LogWorld: Bringing up level for play took: 0.001267
+[2022.12.29-22.01.23:246][548]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2022.12.29-22.01.23:248][548]PIE: Server logged in
+[2022.12.29-22.01.23:249][548]PIE: Play in editor total start time 0.097 seconds.
+[2022.12.29-22.01.27:586][805]Set new viewmode: Lit
+[2022.12.29-22.01.28:011][831]Set new viewmode: Lit_DetailLighting
+[2022.12.29-22.01.28:645][869]Set new viewmode: Lit_DetailLighting
+[2022.12.29-22.01.28:994][890]Set new viewmode: ShaderComplexity
+[2022.12.29-22.01.29:576][908]Set new viewmode: Lit
+[2022.12.29-22.01.29:994][933]Set new viewmode: Unlit
+[2022.12.29-22.01.30:327][953]Set new viewmode: Wireframe
+[2022.12.29-22.01.30:878][986]Set new viewmode: Unlit
+[2022.12.29-22.01.31:411][ 18]Set new viewmode: Wireframe
+[2022.12.29-22.01.31:628][ 31]Set new viewmode: Unlit
+[2022.12.29-22.01.31:828][ 43]Set new viewmode: Lit
+[2022.12.29-22.01.32:295][ 71]Set new viewmode: Unlit
+[2022.12.29-22.01.32:777][100]Set new viewmode: Lit
+[2022.12.29-22.01.33:645][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-22.01.33:645][149]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-22.01.33:645][149]LogWorld: UWorld::CleanupWorld for L_Void, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-22.01.33:646][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-22.01.33:661][149]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.29-22.01.33:666][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-22.01.33:699][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-22.01.33:699][149]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.12.29-22.01.33:700][149]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2022.12.29-22.01.33:709][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.12.29-22.01.33:756][150]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.12.29-22.01.42:280][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_343.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.42:280][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_342.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.42:298][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_351.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.42:298][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_350.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.42:311][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_359.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.42:312][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_358.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.42:325][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_367.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.42:325][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_366.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.42:338][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_375.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.42:339][388]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_374.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:512][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_383.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:513][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_382.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:528][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_391.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:528][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_390.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:541][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_399.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:541][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_398.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:553][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_407.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:555][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_406.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:566][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_415.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.48:567][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_414.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:368][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_423.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:369][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_422.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:389][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_431.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:389][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_430.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:403][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_439.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:403][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_438.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:417][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_447.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:417][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_446.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:431][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_455.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.01.51:431][655]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_454.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.02.32:213][326]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.29-22.02.32:223][326]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.12.29-22.02.32:226][326]LogPlayLevel: [PlayLevel] Compiling B_RoboFist before play...
+[2022.12.29-22.02.32:274][326]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_459.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.02.32:274][326]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_458.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.02.32:283][326]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_463.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.02.32:283][326]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.DESTROYED_B_RoboFist_C_CHILDACTOR_462.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2022.12.29-22.02.32:324][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.12.29-22.02.32:328][326]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
+[2022.12.29-22.02.32:328][326]PIE: New page: PIE session: L_Void (29 Dec 2022, 22:02:32)
+[2022.12.29-22.02.32:328][326]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-22.02.32:330][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002114s)
+[2022.12.29-22.02.32:330][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Void.L_Void to /Game/Level/UEDPIE_0_L_Void.L_Void (0.002194s)
+[2022.12.29-22.02.32:330][326]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.29-22.02.32:330][326]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-22.02.32:330][326]LogAIModule: Creating AISystem for world L_Void
+[2022.12.29-22.02.32:331][326]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2022.12.29-22.02.32:368][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.12.29-22.02.32:369][326]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.12.29-22.02.32:369][326]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.29-22.02.32:369][326]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.29-22.02.32:369][326]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.29-22.02.32:369][326]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.29-22.02.32:369][326]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.29-22.02.32:369][326]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.29-22.02.32:369][326]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.29-22.02.32:369][326]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.29-22.02.32:370][326]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.29-22.02.32:370][326]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.29-22.02.32:370][326]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.29-22.02.32:372][326]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.29-22.02.32:395][326]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.12.29-22.02.32:395][326]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.29-22.02.32:395][326]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.29-22.02.32:395][326]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.29-22.02.32:396][326]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2022.12.29-22.02.32:397][326]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2022.12.29-22.02.32:398][326]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2022.12.29-22.02.32:399][326]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2022.12.29-22.02.32:399][326]LogInit: FAudioDevice initialized.
+[2022.12.29-22.02.32:399][326]LogAudio: Display: Audio Device (ID: 10) registered with world 'L_Void'.
+[2022.12.29-22.02.32:413][326]LogLoad: Game class is 'TestGameMode_C'
+[2022.12.29-22.02.32:414][326]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Void.L_Void up for play (max tick rate 60) at 2022.12.29-22.02.32
+[2022.12.29-22.02.32:415][326]LogWorld: Bringing up level for play took: 0.001019
+[2022.12.29-22.02.32:417][326]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2022.12.29-22.02.32:420][326]PIE: Server logged in
+[2022.12.29-22.02.32:421][326]PIE: Play in editor total start time 0.201 seconds.
+[2022.12.29-22.02.36:116][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-22.02.36:116][542]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-22.02.36:116][542]LogWorld: UWorld::CleanupWorld for L_Void, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-22.02.36:116][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-22.02.36:128][542]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.29-22.02.36:133][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-22.02.36:165][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-22.02.36:165][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.12.29-22.02.36:167][542]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2022.12.29-22.02.36:174][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.12.29-22.02.36:220][543]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.12.29-22.02.48:173][224]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.29-22.02.48:183][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.29-22.02.48:184][224]PIE: New page: PIE session: L_Void (29 Dec 2022, 22:02:48)
+[2022.12.29-22.02.48:222][224]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-22.02.48:226][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004145s)
+[2022.12.29-22.02.48:226][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Void.L_Void to /Game/Level/UEDPIE_0_L_Void.L_Void (0.004337s)
+[2022.12.29-22.02.48:226][224]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.29-22.02.48:226][224]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.29-22.02.48:227][224]LogAIModule: Creating AISystem for world L_Void
+[2022.12.29-22.02.48:227][224]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2022.12.29-22.02.48:261][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.12.29-22.02.48:264][224]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.12.29-22.02.48:265][224]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.29-22.02.48:265][224]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.29-22.02.48:265][224]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.29-22.02.48:265][224]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.29-22.02.48:265][224]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.29-22.02.48:265][224]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.29-22.02.48:265][224]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.29-22.02.48:265][224]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.29-22.02.48:265][224]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.29-22.02.48:265][224]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.29-22.02.48:265][224]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.29-22.02.48:268][224]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.29-22.02.48:291][224]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2022.12.29-22.02.48:292][224]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.29-22.02.48:292][224]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.29-22.02.48:292][224]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.29-22.02.48:293][224]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2022.12.29-22.02.48:293][224]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2022.12.29-22.02.48:295][224]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2022.12.29-22.02.48:295][224]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2022.12.29-22.02.48:296][224]LogInit: FAudioDevice initialized.
+[2022.12.29-22.02.48:296][224]LogAudio: Display: Audio Device (ID: 11) registered with world 'L_Void'.
+[2022.12.29-22.02.48:309][224]LogLoad: Game class is 'TestGameMode_C'
+[2022.12.29-22.02.48:310][224]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Void.L_Void up for play (max tick rate 60) at 2022.12.29-22.02.48
+[2022.12.29-22.02.48:310][224]LogWorld: Bringing up level for play took: 0.001118
+[2022.12.29-22.02.48:312][224]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2022.12.29-22.02.48:315][224]PIE: Server logged in
+[2022.12.29-22.02.48:316][224]PIE: Play in editor total start time 0.134 seconds.
+[2022.12.29-22.02.49:882][310]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2022.12.29-22.02.49:892][310]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprint/B_RoboFist.B_RoboFist_C:ReceiveActorBeginOverlap
+
+[2022.12.29-22.02.50:013][310]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2022.12.29-22.02.54:761][310]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprint/B_RoboFist.B_RoboFist without an associated node. The blueprint breakpoint has been removed
+[2022.12.29-22.02.54:761][310]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprint/B_RoboFist.B_RoboFist without an associated node. The blueprint breakpoint has been removed
+[2022.12.29-22.03.02:842][310]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.03:384][342]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.03:481][348]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.03:717][362]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.03:950][376]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.06:001][494]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.06:019][495]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.06:134][502]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.06:202][506]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.06:601][530]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.06:901][548]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.07:518][585]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.09:069][678]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.09:448][700]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.09:529][705]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.09:846][724]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.10:163][743]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.10:296][751]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.10:381][756]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.10:449][760]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.10:547][766]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.10:615][770]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.10:831][783]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.12:755][897]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.13:005][912]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.13:089][917]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.13:257][927]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.13:273][928]LogBlueprintUserMessages: [B_RoboKnuckle1_GEN_VARIABLE_B_RoboKnuckle1_C_CAT_0] Knuckle Hit
+[2022.12.29-22.03.17:429][177]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.17:445][178]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.17:662][191]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.17:878][204]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.18:078][216]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.18:262][227]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.18:363][233]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.18:478][240]LogBlueprintUserMessages: [LeftKnuckle1_GEN_VARIABLE_B_RoboFist_C_CAT_1] Knuckle Hit
+[2022.12.29-22.03.19:046][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-22.03.19:046][271]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Void
+[2022.12.29-22.03.19:046][271]LogWorld: UWorld::CleanupWorld for L_Void, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-22.03.19:047][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-22.03.19:062][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.29-22.03.19:067][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-22.03.19:098][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.29-22.03.19:099][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.12.29-22.03.19:100][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2022.12.29-22.03.19:109][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.12.29-22.03.19:156][272]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.12.29-22.03.39:802][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2022.12.29-22.03.41:698][480]LogSlate: Window 'Save Content' being destroyed
+[2022.12.29-22.03.41:813][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/B_RoboFist" FILE="../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/B_RoboFist.uasset" SILENT=true
+[2022.12.29-22.03.41:833][480]LogSavePackage: Moving output files for package: /Game/Blueprint/B_RoboFist
+[2022.12.29-22.03.41:834][480]LogSavePackage: Moving '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Saved/B_RoboFist034D6E0A43E07727164AE1A3089E91F2.tmp' to '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/B_RoboFist.uasset'
+[2022.12.29-22.03.41:836][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Enemy/BT_BasicEnemy" FILE="../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/Enemy/BT_BasicEnemy.uasset" SILENT=true
+[2022.12.29-22.03.41:837][480]LogSavePackage: Moving output files for package: /Game/Blueprint/Enemy/BT_BasicEnemy
+[2022.12.29-22.03.41:837][480]LogSavePackage: Moving '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Saved/BT_BasicEnemy55E9C1DA48B05C0D278A2CBE014F2449.tmp' to '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Blueprint/Enemy/BT_BasicEnemy.uasset'
+[2022.12.29-22.03.41:838][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_Void" FILE="../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Level/L_Void.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.29-22.03.41:873][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.12.29-22.03.41:931][480]LogSavePackage: Moving output files for package: /Game/Level/L_Void
+[2022.12.29-22.03.41:932][480]LogSavePackage: Moving '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Saved/L_VoidA2381FED42304E5D4A8328ADB8C63EAB.tmp' to '../../../../../Doccuments/Programming/Unreal/Unreal_GameBehav/Content/Level/L_Void.umap'
+[2022.12.29-22.03.41:971][480]LogFileHelpers: Saving map 'L_Void' took 0.106
+[2022.12.29-22.03.41:977][480]LogStall: Shutdown...
+[2022.12.29-22.03.42:016][480]LogStall: Shutdown complete.
+[2022.12.29-22.03.42:211][480]LogSlate: Window 'B_RoboFist' being destroyed
+[2022.12.29-22.03.42:265][480]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.12.29-22.03.42:265][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.29-22.03.42:564][480]LogSlate: Window 'TempProj - Unreal Editor' being destroyed
+[2022.12.29-22.03.43:846][480]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.29-22.03.43:846][480]LogContentValidation: Display: Validating Blueprint /Game/Blueprint/B_RoboFist.B_RoboFist
+[2022.12.29-22.03.43:846][480]LogContentValidation: Display: Validating World /Game/Level/L_Void.L_Void
+[2022.12.29-22.03.43:846][480]LogContentValidation: Display: Validating BehaviorTree /Game/Blueprint/Enemy/BT_BasicEnemy.BT_BasicEnemy
+[2022.12.29-22.03.43:847][481]Cmd: QUIT_EDITOR
+[2022.12.29-22.03.43:853][481]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.12.29-22.03.44:216][481]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.12.29-22.03.44:286][481]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.12.29-22.03.44:355][481]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.12.29-22.03.47:153][481]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.12.29-22.03.47:154][481]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.12.29-22.03.47:154][481]LogAudio: Display: Audio Device unregistered from world 'L_Void'.
+[2022.12.29-22.03.47:171][481]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.12.29-22.03.47:174][481]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.12.29-22.03.47:205][481]LogAudio: Display: Audio Device Manager Shutdown
+[2022.12.29-22.03.47:342][481]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.12.29-22.03.47:399][481]LogExit: Preparing to exit.
