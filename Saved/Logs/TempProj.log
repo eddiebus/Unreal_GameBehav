@@ -2219,3 +2219,65 @@ Recommended: 516.25
 [2023.01.15-16.11.30:996][414]LogFileHelpers: No new changes to save!
 [2023.01.15-16.11.31:016][414]AssetCheck: New page: Asset Save: L_Station
 [2023.01.15-16.11.31:016][414]LogContentValidation: Display: Validating World /Game/Level/L_Station.L_Station
+[2023.01.15-16.12.38:231][836]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.15-16.12.38:258][836]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.15-16.12.38:258][836]PIE: New page: PIE session: L_Station (15 Jan 2023, 16:12:38)
+[2023.01.15-16.12.38:258][836]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Station
+[2023.01.15-16.12.38:294][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035933s)
+[2023.01.15-16.12.38:294][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Station.L_Station to /Game/Level/UEDPIE_0_L_Station.L_Station (0.036019s)
+[2023.01.15-16.12.38:294][836]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.15-16.12.38:294][836]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.15-16.12.38:295][836]LogAIModule: Creating AISystem for world L_Station
+[2023.01.15-16.12.38:295][836]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2023.01.15-16.12.38:369][836]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2023.01.15-16.12.38:371][836]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.01.15-16.12.38:371][836]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.15-16.12.38:371][836]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.15-16.12.38:371][836]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.15-16.12.38:371][836]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.15-16.12.38:371][836]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.15-16.12.38:371][836]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.15-16.12.38:371][836]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.15-16.12.38:371][836]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.15-16.12.38:372][836]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.15-16.12.38:372][836]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.15-16.12.38:372][836]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.15-16.12.38:375][836]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.15-16.12.38:394][836]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.01.15-16.12.38:395][836]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.15-16.12.38:395][836]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.15-16.12.38:395][836]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.15-16.12.38:395][836]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.01.15-16.12.38:395][836]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.01.15-16.12.38:397][836]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.01.15-16.12.38:397][836]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.01.15-16.12.38:397][836]LogInit: FAudioDevice initialized.
+[2023.01.15-16.12.38:397][836]LogAudio: Display: Audio Device (ID: 11) registered with world 'L_Station'.
+[2023.01.15-16.12.38:406][836]LogLoad: Game class is 'MainGameMode_C'
+[2023.01.15-16.12.38:418][836]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Station.L_Station up for play (max tick rate 0) at 2023.01.15-16.12.38
+[2023.01.15-16.12.38:419][836]LogWorld: Bringing up level for play took: 0.012180
+[2023.01.15-16.12.38:421][836]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.01.15-16.12.38:424][836]PIE: Server logged in
+[2023.01.15-16.12.38:425][836]PIE: Play in editor total start time 0.167 seconds.
+[2023.01.15-16.12.43:991][296]LogBlueprintUserMessages: [B_PlayArea_C_1] Play Begin
+[2023.01.15-16.12.43:994][296]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_FightMusicLoop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.01.15-16.12.48:042][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.15-16.12.48:042][616]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Station
+[2023.01.15-16.12.48:043][616]LogWorld: UWorld::CleanupWorld for L_Station, bSessionEnded=true, bCleanupResources=true
+[2023.01.15-16.12.48:047][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.15-16.12.48:074][616]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.15-16.12.48:088][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.15-16.12.48:156][616]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.15-16.12.48:156][616]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.01.15-16.12.48:157][616]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.01.15-16.12.48:161][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.15-16.12.48:167][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.01.15-16.12.48:211][617]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.01.15-16.12.51:972][688]LogDerivedDataCache: C:/Users/100543874/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.060 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.15-16.13.03:854][ 15]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.01.15-16.13.03:958][ 15]LogUObjectGlobals: Warning: Failed to find object 'Class None.Physics'
+[2023.01.15-16.13.04:350][ 15]LogHoudiniEngine: Error: Hapi failed: No valid Houdini Engine session.
+[2023.01.15-16.13.59:141][617]LogSlate: Window 'Project Settings' being destroyed
+[2023.01.15-16.13.59:159][617]LogSlate: Window 'Project Settings' being destroyed
+[2023.01.15-16.14.01:180][778]LogSlate: Window 'Message Log' being destroyed
+[2023.01.15-16.14.01:197][778]LogSlate: Window 'Message Log' being destroyed
