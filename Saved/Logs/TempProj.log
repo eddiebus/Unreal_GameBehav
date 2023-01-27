@@ -1437,3 +1437,43 @@ Recommended: 516.25
 [2023.01.27-14.23.23:875][453]LogVolumetricLightmapImport:          2: 10.0% covering 0.0% of volume
 [2023.01.27-14.23.23:875][453]LogVolumetricLightmapImport:      Bricks in each level
 [2023.01.27-14.23.23:875][453]LogVolumetricLightmapImport:          L_Station 			 20 bricks 	 100.0% (Persistent Level)
+[2023.01.27-14.23.24:380][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:402][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:426][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:450][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:475][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_3 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:493][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_3 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:510][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_4 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:529][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_4 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:545][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_5 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:562][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_5 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:579][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_6 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:600][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_6 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:617][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_7 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:637][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_7 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:655][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_8 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:675][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_8 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:695][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_9 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:716][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_9 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:734][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_10 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:754][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_10 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:773][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_11 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:793][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_11 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:814][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_12 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:832][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_12 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:847][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:HQ_Lightmap0_13 (TFO_AutoDXT, 512X512 X1X1) (Required Memory Estimate: 6.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.24:853][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:LQ_Lightmap_0_13 (TFO_DXT1, 512X512 X1X1) (Required Memory Estimate: 6.66666 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.25:017][453]LogTexture: Display: Building textures: /Game/Level/L_Station_BuiltData.L_Station_BuiltData:ShadowMapTexture2D_0 (G8, 1024X1024 X1X1) (Required Memory Estimate: 6.666665 MB), EncodeSpeed: Fast
+[2023.01.27-14.23.25:149][453]Lightmass on 00D86147255A: 25.3 sec total, 1.17 sec importing, 331 ms setup, 7.40 sec photons, 16.4 sec processing, 0 us extra exporting [394/394 mappings]. Threads: 4:06 min total, 2:36 min processing.
+[2023.01.27-14.23.25:167][453]LogStaticLightingSystem: L_Station_BuiltData storing lightmap data for 394 meshes in 19 LightmapResourceClusters (20.7 Meshes per cluster).
+[2023.01.27-14.23.25:206][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.01.27-14.23.25:213][453]LogStaticLightingSystem: Illumination: 45.2 sec (583 ms encoding lightmaps, 176 ms encoding shadowmaps)
+[2023.01.27-14.23.25:213][453]LogStaticLightingSystem: Lightmap texture memory:  25.3 MB (25.3 MB streaming, 0.0 MB non-streaming), 28 textures
+[2023.01.27-14.23.25:213][453]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (1.4 MB streaming, 0.0 MB non-streaming), 1 textures
+[2023.01.27-14.23.25:979][453]DumpUnbuiltLightIteractions
+[2023.01.27-14.23.25:979][453]Lights with unbuilt interactions: 0
+[2023.01.27-14.23.25:979][453]
+[2023.01.27-14.23.25:979][453]Primitives with unbuilt interactions: 0
+[2023.01.27-14.23.25:996][454]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.01.27-14.23.25:996][454]MapCheck: New page: L_Station - 27 Jan 2023, 14:23:25
+[2023.01.27-14.23.25:997][454]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.313ms to complete.
